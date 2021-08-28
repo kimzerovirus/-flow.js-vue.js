@@ -9,3 +9,4 @@
 ### server
  - jdk11
  - gradle
+ - https://github.com/ralscha/blog/tree/master/uploadflowjs/server
