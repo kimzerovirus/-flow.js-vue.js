@@ -1,0 +1,36 @@
+// Default variable overrides
+// custom bootstrap
+// https://getbootstrap.com/docs/5.0/customize/sass/
+// variables name list
+// https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+/*
+    CI color
+    #0c439a
+    #1a2386
+    #efb7d2
+    #a2c5e5 
+    #84cabd 
+*/
+
+//custom body background-color
+// $body-bg: #f2f2f2 !default;
+
+//custom color
+$primary: #0c439a;
+$darkblue: #1a2386;
+$pink: #efb7d2;
+$skyblue:#a2c5e5;
+$mint:#84cabd;
+
+//custom font
+$font-family-sans-serif:'Noto Sans KR','Malgun Gothic',sans-serif;
+$font-family-base: $font-family-sans-serif !default;
+
+// Required
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+//fonts
+@import "./font.scss";
