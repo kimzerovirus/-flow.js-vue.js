@@ -11,5 +11,5 @@
  - gradle
  - https://github.com/ralscha/blog/tree/master/uploadflowjs/server
 
-> chunk분할 방식의 파일 
+> flow.js를 활용한 chunk분할 방식의 파일 업로드 프로젝트 입니다.
 >
